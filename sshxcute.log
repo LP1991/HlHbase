@@ -1,0 +1,177 @@
+
+=============== [2017/04/12 16:43:59, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:43:59] INFO:    SSHExec initializing ...
+[16:43:59] INFO:    Session initialized and associated with user credential 123456
+[16:43:59] INFO:    SSHExec initialized successfully
+[16:43:59] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:44:00] INFO:    SSH connection established
+[16:44:00] INFO:    Command is sudo hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:44:00] INFO:    Connection channel established succesfully
+[16:44:00] INFO:    Start to run command
+[16:44:01] INFO:    Connection channel closed
+[16:44:01] INFO:    Check if exec success or not ... 
+[16:44:01] INFO:    Execution failed while executing command: sudo hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:44:01] INFO:    Error message: Error: Could not find or load main class hbase
+[16:44:01] INFO:    Now wait 5 seconds to begin next task ...
+[16:44:06] INFO:    Connection channel disconnect
+[16:44:06] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 16:46:42, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:46:42] INFO:    SSHExec initializing ...
+[16:46:42] INFO:    Session initialized and associated with user credential 123456
+[16:46:42] INFO:    SSHExec initialized successfully
+[16:46:42] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:46:43] INFO:    SSH connection established
+[16:46:43] INFO:    Command is su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:46:43] INFO:    Connection channel established succesfully
+[16:46:43] INFO:    Start to run command
+[16:46:43] INFO:    Connection channel closed
+[16:46:43] INFO:    Check if exec success or not ... 
+[16:46:43] INFO:    Execution failed while executing command: su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:46:43] INFO:    Error message: bash: hbase: Permission denied
+[16:46:43] INFO:    Now wait 5 seconds to begin next task ...
+[16:46:48] INFO:    Connection channel disconnect
+[16:46:48] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 16:49:05, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:49:05] INFO:    SSHExec initializing ...
+[16:49:05] INFO:    Session initialized and associated with user credential 123456
+[16:49:05] INFO:    SSHExec initialized successfully
+[16:49:05] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:49:06] INFO:    SSH connection established
+[16:49:06] INFO:    Command is su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:49:06] INFO:    Connection channel established succesfully
+[16:49:06] INFO:    Start to run command
+[16:49:06] INFO:    Connection channel closed
+[16:49:06] INFO:    Check if exec success or not ... 
+[16:49:06] INFO:    Execution failed while executing command: su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:49:06] INFO:    Error message: bash: hbase: Permission denied
+[16:49:06] INFO:    Now wait 5 seconds to begin next task ...
+[16:49:11] INFO:    Connection channel disconnect
+[16:49:11] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 16:49:31, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:49:31] INFO:    SSHExec initializing ...
+[16:49:31] INFO:    Session initialized and associated with user credential 123456
+[16:49:31] INFO:    SSHExec initialized successfully
+[16:49:31] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:49:33] INFO:    SSH connection established
+[16:49:33] INFO:    Command is su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:49:33] INFO:    Connection channel established succesfully
+[16:49:33] INFO:    Start to run command
+[16:49:33] INFO:    Connection channel closed
+[16:49:33] INFO:    Check if exec success or not ... 
+[16:49:33] INFO:    Execution failed while executing command: su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:49:33] INFO:    Error message: bash: hbase: Permission denied
+[16:49:33] INFO:    Now wait 5 seconds to begin next task ...
+[16:49:38] INFO:    Connection channel disconnect
+[16:49:38] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 16:55:44, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:55:44] INFO:    SSHExec initializing ...
+[16:55:44] INFO:    Session initialized and associated with user credential 123456
+[16:55:44] INFO:    SSHExec initialized successfully
+[16:55:44] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:55:45] INFO:    SSH connection established
+[16:55:45] INFO:    Command is su hbase hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:55:45] INFO:    Connection channel established succesfully
+[16:55:45] INFO:    Start to run command
+[16:55:45] INFO:    Connection channel closed
+[16:55:45] INFO:    Check if exec success or not ... 
+[16:55:45] INFO:    Execution failed while executing command: su hbase hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:55:45] INFO:    Error message: 
+[16:55:45] INFO:    Now wait 5 seconds to begin next task ...
+[16:55:50] INFO:    Connection channel disconnect
+[16:55:50] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 16:58:52, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:58:52] INFO:    SSHExec initializing ...
+[16:58:52] INFO:    Session initialized and associated with user credential 123456
+[16:58:52] INFO:    SSHExec initialized successfully
+[16:58:52] INFO:    SSHExec trying to connect root@10.1.70.200
+[16:58:52] INFO:    SSH connection established
+[16:58:52] INFO:    Command is hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:58:52] INFO:    Connection channel established succesfully
+[16:58:52] INFO:    Start to run command
+[16:58:55] INFO:    Connection channel closed
+[16:58:55] INFO:    Check if exec success or not ... 
+[16:58:55] INFO:    Execution failed while executing command: hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[16:58:55] INFO:    Error message: Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release17/04/12 17:01:14 WARN mapreduce.TableMapReduceUtil: The hbase-prefix-tree module jar containing PrefixTreeCodec is not present.  Continuing without it.17/04/12 17:01:14 INFO client.RMProxy: Connecting to ResourceManager at name.hadoop.demo/10.1.70.200:803217/04/12 17:01:14 WARN security.UserGroupInformation: PriviledgedActionException as:root (auth:SIMPLE) cause:org.apache.hadoop.security.AccessControlException: Permission denied: user=root, access=WRITE, inode="/user":hdfs:supergroup:drwxr-xr-x	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkFsPermission(DefaultAuthorizationProvider.java:281)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:262)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:242)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkPermission(DefaultAuthorizationProvider.java:169)	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:152)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6621)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6603)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkAncestorAccess(FSNamesystem.java:6555)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInternal(FSNamesystem.java:4350)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInt(FSNamesystem.java:4320)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:4293)	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:869)	at org.apache.hadoop.hdfs.server.namenode.AuthorizationProviderProxyClientProtocol.mkdirs(AuthorizationProviderProxyClientProtocol.java:323)	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:608)	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:617)	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1073)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2086)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2082)	at java.security.AccessController.doPrivileged(Native Method)	at javax.security.auth.Subject.doAs(Subject.java:422)	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1693)	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2080)Exception in thread "main" org.apache.hadoop.security.AccessControlException: Permission denied: user=root, access=WRITE, inode="/user":hdfs:supergroup:drwxr-xr-x	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkFsPermission(DefaultAuthorizationProvider.java:281)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:262)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:242)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkPermission(DefaultAuthorizationProvider.java:169)	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:152)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6621)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6603)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkAncestorAccess(FSNamesystem.java:6555)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInternal(FSNamesystem.java:4350)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInt(FSNamesystem.java:4320)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:4293)	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:869)	at org.apache.hadoop.hdfs.server.namenode.AuthorizationProviderProxyClientProtocol.mkdirs(AuthorizationProviderProxyClientProtocol.java:323)	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:608)	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:617)	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1073)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2086)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2082)	at java.security.AccessController.doPrivileged(Native Method)	at javax.security.auth.Subject.doAs(Subject.java:422)	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1693)	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2080)	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)	at org.apache.hadoop.ipc.RemoteException.instantiateException(RemoteException.java:106)	at org.apache.hadoop.ipc.RemoteException.unwrapRemoteException(RemoteException.java:73)	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:3084)	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:3049)	at org.apache.hadoop.hdfs.DistributedFileSystem$18.doCall(DistributedFileSystem.java:957)	at org.apache.hadoop.hdfs.DistributedFileSystem$18.doCall(DistributedFileSystem.java:953)	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:953)	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:946)	at org.apache.hadoop.mapreduce.JobSubmissionFiles.getStagingDir(JobSubmissionFiles.java:133)	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:148)	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1307)	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1304)	at java.security.AccessController.doPrivileged(Native Method)	at javax.security.auth.Subject.doAs(Subject.java:422)	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1693)	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1304)	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1325)	at org.apache.hadoop.hbase.mapreduce.RowCounter.main(RowCounter.java:210)Caused by: org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.security.AccessControlException): Permission denied: user=root, access=WRITE, inode="/user":hdfs:supergroup:drwxr-xr-x	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkFsPermission(DefaultAuthorizationProvider.java:281)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:262)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.check(DefaultAuthorizationProvider.java:242)	at org.apache.hadoop.hdfs.server.namenode.DefaultAuthorizationProvider.checkPermission(DefaultAuthorizationProvider.java:169)	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:152)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6621)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:6603)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkAncestorAccess(FSNamesystem.java:6555)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInternal(FSNamesystem.java:4350)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInt(FSNamesystem.java:4320)	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:4293)	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:869)	at org.apache.hadoop.hdfs.server.namenode.AuthorizationProviderProxyClientProtocol.mkdirs(AuthorizationProviderProxyClientProtocol.java:323)	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:608)	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:617)	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:1073)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2086)	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2082)	at java.security.AccessController.doPrivileged(Native Method)	at javax.security.auth.Subject.doAs(Subject.java:422)	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1693)	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2080)	at org.apache.hadoop.ipc.Client.call(Client.java:1471)	at org.apache.hadoop.ipc.Client.call(Client.java:1408)	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:230)	at com.sun.proxy.$Proxy10.mkdirs(Unknown Source)	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:549)	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)	at java.lang.reflect.Method.invoke(Method.java:498)	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:256)	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:104)	at com.sun.proxy.$Proxy11.mkdirs(Unknown Source)	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:3082)	... 16 more
+[16:58:55] INFO:    Now wait 5 seconds to begin next task ...
+[16:59:00] INFO:    Connection channel disconnect
+[16:59:00] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 17:02:08, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:02:08] INFO:    SSHExec initializing ...
+[17:02:08] INFO:    Session initialized and associated with user credential 123456
+[17:02:08] INFO:    SSHExec initialized successfully
+[17:02:08] INFO:    SSHExec trying to connect root@10.1.70.200
+[17:02:09] INFO:    SSH connection established
+[17:02:09] INFO:    Command is su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:02:09] INFO:    Connection channel established succesfully
+[17:02:09] INFO:    Start to run command
+[17:02:09] INFO:    Connection channel closed
+[17:02:09] INFO:    Check if exec success or not ... 
+[17:02:09] INFO:    Execution failed while executing command: su hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:02:09] INFO:    Error message: bash: hbase: Permission denied
+[17:02:09] INFO:    Now wait 5 seconds to begin next task ...
+[17:02:14] INFO:    Connection channel disconnect
+[17:02:14] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 17:07:39, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:07:39] INFO:    SSHExec initializing ...
+[17:07:39] INFO:    Session initialized and associated with user credential 123456
+[17:07:39] INFO:    SSHExec initialized successfully
+[17:07:39] INFO:    SSHExec trying to connect root@10.1.70.200
+[17:07:40] INFO:    SSH connection established
+[17:07:40] INFO:    Command is sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:07:40] INFO:    Connection channel established succesfully
+[17:07:40] INFO:    Start to run command
+[17:08:04] INFO:    Connection channel closed
+[17:08:04] INFO:    Check if exec success or not ... 
+[17:08:04] INFO:    Execute successfully for command: sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:08:04] INFO:    Now wait 5 seconds to begin next task ...
+[17:08:11] INFO:    Connection channel disconnect
+[17:08:11] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 17:13:43, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:13:43] INFO:    SSHExec initializing ...
+[17:13:43] INFO:    Session initialized and associated with user credential 123456
+[17:13:43] INFO:    SSHExec initialized successfully
+[17:13:43] INFO:    SSHExec trying to connect root@10.1.70.200
+[17:13:44] INFO:    SSH connection established
+[17:13:44] INFO:    Command is sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:13:44] INFO:    Connection channel established succesfully
+[17:13:44] INFO:    Start to run command
+[17:14:06] INFO:    Connection channel closed
+[17:14:06] INFO:    Check if exec success or not ... 
+[17:14:06] INFO:    Execute successfully for command: sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:14:06] INFO:    Now wait 5 seconds to begin next task ...
+[17:14:12] INFO:    Connection channel disconnect
+[17:14:12] INFO:    SSH connection shutdown
+
+=============== [2017/04/12 17:18:14, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:18:14] INFO:    SSHExec initializing ...
+[17:18:14] INFO:    Session initialized and associated with user credential 123456
+[17:18:14] INFO:    SSHExec initialized successfully
+[17:18:14] INFO:    SSHExec trying to connect root@10.1.70.200
+[17:18:15] INFO:    SSH connection established
+[17:18:15] INFO:    Command is sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:18:15] INFO:    Connection channel established succesfully
+[17:18:15] INFO:    Start to run command
+[17:18:33] INFO:    Connection channel closed
+[17:18:33] INFO:    Check if exec success or not ... 
+[17:18:33] INFO:    Execute successfully for command: sudo -u hdfs hbase org.apache.hadoop.hbase.mapreduce.RowCounter 't_user'
+[17:18:33] INFO:    Now wait 5 seconds to begin next task ...
+[17:18:39] INFO:    Connection channel disconnect
+[17:18:39] INFO:    SSH connection shutdown
